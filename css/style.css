@@ -96,8 +96,10 @@ h3.third-section-h3{
     h4.user-count{
         font-size: 1.27rem;
     }
-    h1.main-heading{
+    h1.main-heading,
+    h2.features-heading{
         font-size: 2rem;
     }
+    
    
 }
