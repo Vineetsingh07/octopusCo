@@ -1,854 +1,617 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="Description" content="Put your description here.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="css/materialize.min.css">
-
-    <title>OctopusCo</title>
-</head>
-<body>
-    <section class="heading-section">
-        <div class="container">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="Description" content="Put your description here.">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/style.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="css/materialize.min.css">
+      <title>OctopusCo</title>
+   </head>
+   <body>
+      <!-- <nav class="nav-extended">
+         <div class="nav ">
+           <a href="#" class="brand-logo">Logo</a>
+           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+           <ul id="nav-mobile" class="right hide-on-med-and-down">
+             <li><a href="sass.html">Sass</a></li>
+             <li><a href="badges.html">Components</a></li>
+             <li><a href="collapsible.html">JavaScript</a></li>
+           </ul>
+         </div>
+         <div class="nav-content">
+           <ul class="tabs tabs-transparent">
+             <li class="tab"><a href="#test1">Test 1</a></li>
+             <li class="tab"><a class="active" href="#test2">Test 2</a></li>
+             <li class="tab disabled"><a href="#test3">Disabled Tab</a></li>
+             <li class="tab"><a href="#test4">Test 4</a></li>
+           </ul>
+         </div>
+         </nav> -->
+      <ul class="sidenav" id="mobile-demo">
+         <li><a href="sass.html">Sass</a></li>
+         <li><a href="badges.html">Components</a></li>
+         <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+      <section class="heading-section">
+         <div class="container">
             <div class="header">
-                <p> 
-                    <picture>
-                        <source type="images/webp" data-srcset="logo.webp">
-                        <img data-src="images/webp/logo.webp" class="lazyload logo" alt="">
-                    </picture>
-                    <span class="logo-text"> octopusCo </span>
-                </p>
-                
-            </div>
-        
-            <div class="heading">
-                <!-- <h1>Design Smart <br> Customer Feedback Survey.</h1> -->
-                <h1 class="main-heading">Digital Feedback Solutions<br>and Surveys</h1>
-                <h4 class="user-count">Free Accees to First 1,000 Users<span class="asterik">*</span></h4>
-            </div>
-
-            <div class="row">
-                <form class="col s12">
-                  <div class="row">
-                    <div class="col s2">
-                    </div>
-                    <div class="input-field col s6">
-                      <i class="material-icons prefix">email</i>
-                      <input id="icon_prefix" type="email" class="validate">
-                      <label for="icon_prefix">Email</label>
-                    </div>
-                    <div class="input-field col s2">
-                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                            <i class="material-icons right">send</i>
-                        </button>
-                    </div>
-                    <div class="col s2">
-                    </div>
-                  </div>
-                </form>
-            </div>
-
-            <h4 class="helper-text"><span class="no-of-user">477</span> Users, who already join octopusCo</h4>
-        </div>
-    </section>
-    
-    
-    <section style="margin-top: 7rem;">
-        <div class="fake-container">
-            <h2 class="intro-heading">
-                Introduction
-            </h2>
-            <div class="row">
-                <div class="col m6">
-                    <p class="features-para">
-                        A 360 solution to digitalize the day to day operations activities for your organisation.
-                        which includes as follows.
-                    </p>
-                    <div class="row">
-                        <div class="col s12 m6">
-                            <p class="heading-with-image">
-                                <picture>
-                                    <source type="images/webp" data-srcset="social_media.webp">
-                                    <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                                </picture>
-                                
-                                <span class="sub-heading">
-                                    Digital Feedback Solution
-                                </span>
-                            </p>
-                            <p class="features-para">
-                                An Android based application where any kind of feedback procedure can be replicated.
-                                which includes 
-                            </p>
-                            <div class="fake-container-2">
-                                <div class="row">
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> App based</li>
-                                            <li> Web based</li>
-                                            <li> QR Codes</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> Kiosk Mode</li>
-                                            <li> Email & SMS based</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col s12 m6">
-                            <p class="heading-with-image">
-                                <picture>
-                                    <source type="images/webp" data-srcset="social_media.webp">
-                                    <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                                </picture>
-                                
-                                <span class="sub-heading">
-                                    Digital Application Form
-                                </span>
-                            </p>
-                            <p class="features-para">
-                                Any application form which is
-                                The term originally referred to messages sent using the Short Message Service (SMS). 
-                            </p>
-                            <div class="fake-container-2">
-                                <div class="row">
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> App based</li>
-                                            <li> Web based</li>
-                                            <li> QR Codes</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> Kiosk Mode</li>
-                                            <li> Email & SMS based</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col s12 m6">
-                            <p class="heading-with-image">
-                                <picture>
-                                    <source type="images/webp" data-srcset="social_media.webp">
-                                    <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                                </picture>
-                                
-                                <span class="sub-heading">
-                                    Visitor Management Solution
-                                </span>
-                            </p>
-                            <p class="features-para">
-                                The term originally referred to messages sent using the Short Message Service (SMS). 
-                            </p>
-                            <div class="fake-container-2">
-                                <div class="row">
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> App based</li>
-                                            <li> Web based</li>
-                                            <li> QR Codes</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col s6">
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col s12 m6">
-                            <p class="heading-with-image">
-                                <picture>
-                                    <source type="images/webp" data-srcset="social_media.webp">
-                                    <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                                </picture>
-                                
-                                <span class="sub-heading">
-                                    Digital Surveys
-                                </span>
-                            </p>
-                            <p class="features-para">
-                                The term originally referred to messages sent using the Short Message Service (SMS). 
-                            </p>
-                            <div class="fake-container-2">
-                                <div class="row">
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> App based</li>
-                                            <li> Web based</li>
-                                            <li> QR Codes</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> Kiosk Mode</li>
-                                            <li> Email & SMS based</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                <div class="col m6">
-                    
-                    <div class="image-section">
-
-                        <picture>
-                            <source type="images/webp" data-srcset="heading7.webp">
-                            <img data-src="images/webp/heading7.webp" class="lazyload heading-section-image" alt="">
-                        </picture>
-                        
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-       
-    </section>
-
-
-    <section style="margin-top: 7rem;">
-        <div class="fake-container">
-            <h2 class="intro-heading">
-                Introduction
-            </h2>
-            <div class="row">
-                <div class="col m6">
-                    
-                    <div class="image-section">
-
-                        <picture>
-                            <source type="images/webp" data-srcset="heading7.webp">
-                            <img data-src="images/webp/heading7.webp" class="lazyload heading-section-image" alt="">
-                        </picture>
-                        
-                    </div>
-
-                </div>
-
-                <div class="col m6">
-                    <p class="features-para">
-                        A 360 solution to digitalize the day to day operations activities for your organisation.
-                        which includes as follows.
-                    </p>
-                    <div class="row">
-                        <div class="col s12 m6">
-                            <p class="heading-with-image">
-                                <picture>
-                                    <source type="images/webp" data-srcset="social_media.webp">
-                                    <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                                </picture>
-                                
-                                <span class="sub-heading">
-                                    Digital Feedback Solution
-                                </span>
-                            </p>
-                            <p class="features-para">
-                                An Android based application where any kind of feedback procedure can be replicated.
-                                which includes 
-                            </p>
-                            <div class="fake-container-2">
-                                <div class="row">
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> App based</li>
-                                            <li> Web based</li>
-                                            <li> QR Codes</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> Kiosk Mode</li>
-                                            <li> Email & SMS based</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col s12 m6">
-                            <p class="heading-with-image">
-                                <picture>
-                                    <source type="images/webp" data-srcset="social_media.webp">
-                                    <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                                </picture>
-                                
-                                <span class="sub-heading">
-                                    Digital Application Form
-                                </span>
-                            </p>
-                            <p class="features-para">
-                                Any application form which is
-                                The term originally referred to messages sent using the Short Message Service (SMS). 
-                            </p>
-                            <div class="fake-container-2">
-                                <div class="row">
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> App based</li>
-                                            <li> Web based</li>
-                                            <li> QR Codes</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> Kiosk Mode</li>
-                                            <li> Email & SMS based</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col s12 m6">
-                            <p class="heading-with-image">
-                                <picture>
-                                    <source type="images/webp" data-srcset="social_media.webp">
-                                    <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                                </picture>
-                                
-                                <span class="sub-heading">
-                                    Visitor Management Solution
-                                </span>
-                            </p>
-                            <p class="features-para">
-                                The term originally referred to messages sent using the Short Message Service (SMS). 
-                            </p>
-                            <div class="fake-container-2">
-                                <div class="row">
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> App based</li>
-                                            <li> Web based</li>
-                                            <li> QR Codes</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col s6">
-                                        
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col s12 m6">
-                            <p class="heading-with-image">
-                                <picture>
-                                    <source type="images/webp" data-srcset="social_media.webp">
-                                    <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                                </picture>
-                                
-                                <span class="sub-heading">
-                                    Digital Surveys
-                                </span>
-                            </p>
-                            <p class="features-para">
-                                The term originally referred to messages sent using the Short Message Service (SMS). 
-                            </p>
-                            <div class="fake-container-2">
-                                <div class="row">
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> App based</li>
-                                            <li> Web based</li>
-                                            <li> QR Codes</li>
-                                        </ul>
-                                    </div>
-                                    <div class="col s6">
-                                        <ul class="unorder-list">
-                                            <li> Kiosk Mode</li>
-                                            <li> Email & SMS based</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-                
-            </div>
-        </div>
-
-       
-    </section>
-
-
-    <section class="feature-section">
-        <div class="fake-container">
-            <div class="heading-2">
-                <h2 class="features-heading">Features</h2>
-            </div>
-            <div class="row middle">
-                
-                <div class="col s12 l4">
-                    
-                    <p class="heading-with-image">
-                        <picture>
-                            <source type="images/webp" data-srcset="social_media.webp">
-                            <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                        </picture>
-                        
-                        <span class="sub-heading">
-                            Social Media Push
-                        </span>
-                    </p>
-                    <p class="features-para">
-                        The term originally referred to messages sent using the Short Message Service (SMS). 
-                        It has grown beyond alphanumeric text to include multimedia messages using the Multimedia 
-                        Messaging Service (MMS) containing digital images, videos, and sound content, as well as 
-                        ideograms known as emoji (happy faces, sad faces, and other icons).
-                    </p>
-                </div>
-
-                <div class="col s12 l4">
-                    
-                    <p class="heading-with-image">
-                        <picture>
-                            <source type="images/webp" data-srcset="social_media.webp">
-                            <img data-src="images/webp/analytics.webp" class="lazyload features-heading" alt="">
-                        </picture>
-                        
-                        <span class="sub-heading">
-                            Real Time Analytics
-                        </span>
-                    </p>
-                    <p class="features-para">
-                        The term originally referred to messages sent using the Short Message Service (SMS). 
-                        It has grown beyond alphanumeric text to include multimedia messages using the Multimedia 
-                        Messaging Service (MMS) containing digital images, videos, and sound content, as well as 
-                        ideograms known as emoji (happy faces, sad faces, and other icons).
-                    </p>
-                </div>
-
-                <div class="col s12 l4">
-                    
-                    <p class="heading-with-image">
-                        <picture>
-                            <source type="images/webp" data-srcset="social_media.webp">
-                            <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                        </picture>
-                        
-                        <span class="sub-heading">
-                            Customer Loyality & Referral
-                        </span>
-                    </p>
-                    <p class="features-para">
-                        The term originally referred to messages sent using the Short Message Service (SMS). 
-                        It has grown beyond alphanumeric text to include multimedia messages using the Multimedia 
-                        Messaging Service (MMS) containing digital images, videos, and sound content, as well as 
-                        ideograms known as emoji (happy faces, sad faces, and other icons).
-                    </p>
-                </div>
-
-                <div class="col s12 l4">
-                    
-                    <p class="heading-with-image">
-                        <picture>
-                            <source type="images/webp" data-srcset="social_media.webp">
-                            <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                        </picture>
-                        
-                        <span class="sub-heading">
-                            Automating Survey
-                        </span>
-                    </p>
-                    <p class="features-para">
-                        The term originally referred to messages sent using the Short Message Service (SMS). 
-                        It has grown beyond alphanumeric text to include multimedia messages using the Multimedia 
-                        Messaging Service (MMS) containing digital images, videos, and sound content, as well as 
-                        ideograms known as emoji (happy faces, sad faces, and other icons).
-                    </p>
-                </div>
-
-                <div class="col s12 l4">
-                    
-                    <p class="heading-with-image">
-                        <picture>
-                            <source type="images/webp" data-srcset="social_media.webp">
-                            <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                        </picture>
-                        
-                        <span class="sub-heading">
-                            Employee Performance
-                        </span>
-                    </p>
-                    <p class="features-para">
-                        The term originally referred to messages sent using the Short Message Service (SMS). 
-                        It has grown beyond alphanumeric text to include multimedia messages using the Multimedia 
-                        Messaging Service (MMS) containing digital images, videos, and sound content, as well as 
-                        ideograms known as emoji (happy faces, sad faces, and other icons).
-                    </p>
-                </div>
-
-                <div class="col s12 l4">
-                    
-                    <p class="heading-with-image">
-                        <picture>
-                            <source type="images/webp" data-srcset="social_media.webp">
-                            <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                        </picture>
-                        
-                        <span class="sub-heading">
-                            Condition Logic Branch
-                        </span>
-                    </p>
-                    <p class="features-para">
-                        The term originally referred to messages sent using the Short Message Service (SMS). 
-                        It has grown beyond alphanumeric text to include multimedia messages using the Multimedia 
-                        Messaging Service (MMS) containing digital images, videos, and sound content, as well as 
-                        ideograms known as emoji (happy faces, sad faces, and other icons).
-                    </p>
-                </div>
-
-                <div class="col s12 l4">
-                    
-                    <p class="heading-with-image">
-                        <picture>
-                            <source type="images/webp" data-srcset="social_media.webp">
-                            <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                        </picture>
-                        
-                        <span class="sub-heading">
-                            Smooth CRM
-                        </span>
-                    </p>
-                    <p class="features-para">
-                        The term originally referred to messages sent using the Short Message Service (SMS). 
-                        It has grown beyond alphanumeric text to include multimedia messages using the Multimedia 
-                        Messaging Service (MMS) containing digital images, videos, and sound content, as well as 
-                        ideograms known as emoji (happy faces, sad faces, and other icons).
-                    </p>
-                </div>
-
-                <div class="col s12 l4">
-                    
-                    <p class="heading-with-image">
-                        <picture>
-                            <source type="images/webp" data-srcset="social_media.webp">
-                            <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
-                        </picture>
-                        
-                        <span class="sub-heading">
-                            NPS & CSAT
-                        </span>
-                    </p>
-                    <p class="features-para">
-                        The term originally referred to messages sent using the Short Message Service (SMS). 
-                        It has grown beyond alphanumeric text to include multimedia messages using the Multimedia 
-                        Messaging Service (MMS) containing digital images, videos, and sound content, as well as 
-                        ideograms known as emoji (happy faces, sad faces, and other icons).
-                    </p>
-                </div>
-
-                
-            </div>
-        </div>
-    </section>
-
-
-    <section class="third-section">
-        <div class="fake-container">
-            <div class="row">
-                <div class="col s12 l4">
-                    
-                        <h3 class="third-section-h3">Intigrate with the apps <br>you already use.</h3>
-                    
-                </div>
-
-                <div class="col s12 l4">
-                    
-                </div>
-
-                <div class="col s12 l4">
-                    
-                        <h3 class="third-section-h3">Use it anywhere</h3>
-                    
-                </div>
-            </div>
-                
-
-            <div>
-                <picture>
-                    <source type="images/webp" data-srcset="third_section_image.webp">
-                    <img data-src="images/webp/third_section_image.webp" class="lazyload third_section_image" alt="">
+               <p>
+                  <picture>
+                     <source type="images/webp" data-srcset="logo.webp">
+                     <img data-src="images/webp/logo.webp" class="lazyload logo" alt="">
                   </picture>
+                  <span class="logo-text"> octopusCo </span>
+               </p>
             </div>
-            
-            <div class="container">
-                <div class="row">
-                    <form class="col s12">
-                    <div class="row">
-                        <div class="col s2">
-                        </div>
-                        <div class="input-field col s6">
+            <div class="heading">
+               <!-- <h1>Design Smart <br> Customer Feedback Survey.</h1> -->
+               <h1 class="main-heading">Digital Feedback Solutions<br>and Surveys</h1>
+               <h4 class="user-count">Free Accees to First 1,000 Users<span class="asterik">*</span></h4>
+            </div>
+            <div class="row">
+               <form class="col s12">
+                  <div class="row">
+                     <div class="col s2">
+                     </div>
+                     <div class="input-field col s6">
                         <i class="material-icons prefix">email</i>
                         <input id="icon_prefix" type="email" class="validate">
                         <label for="icon_prefix">Email</label>
+                     </div>
+                     <div class="input-field col s2">
+                        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                        </button>
+                     </div>
+                     <div class="col s2">
+                     </div>
+                  </div>
+               </form>
+            </div>
+            <h4 class="helper-text"><span class="no-of-user">477</span> Users, who already join octopusCo</h4>
+         </div>
+      </section>
+      <section style="margin-top: 7rem;">
+         <div class="fake-container">
+            <h2 class="intro-heading">
+               Introduction
+            </h2>
+            <div class="row">
+
+               <div class="col l6">
+                  <div class="image-section">
+                     <picture>
+                        <source type="images/webp" data-srcset="intro.webp">
+                        <img data-src="images/webp/intro.webp" class="lazyload heading-section-image" alt="">
+                     </picture>
+                  </div>
+               </div>
+
+               <div class="col l6">
+                  <p class="intro-heading-para">
+                     A 360 solution to digitalize the day to day operations activities for your organisation.
+                     which includes as follows.
+                  </p>
+                  <p class="intro-heading-para">
+                     In the age of technology every business segment is moving foreward to digital transformation
+                     but we have noticed most of the organisations are still using the same old school approach
+                     to collect data.
+                  </p>
+               </div>
+               
+            </div>
+            
+         </div>
+      </section>
+
+
+      <section class="feature-section">
+         <div class="fake-container">
+            <!-- <div class="heading-2">
+               <h2 class="features-heading">Introduction</h2>
+            </div> -->
+            <div class="row middle">
+               <div class="col s12 l4">
+                  <p class="heading-with-image">
+                     <picture>
+                        <source type="images/webp" data-srcset="social_media.webp">
+                        <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
+                     </picture>
+                     <span class="sub-heading">
+                        Digital Feedback Solution
+                     </span>
+                  </p>
+                  <p class="features-para">
+                     Feedback plays an important role to understand 
+                     the experience od end user for any kind of services or product 
+                     we have digitalize the whole process of collecting feedback in any manner
+                     it is an Android based application where any kind of feedback procedure can be replicated.
+                  </p>
+               </div>
+               <div class="col s12 l4">
+                  <p class="heading-with-image">
+                     <picture>
+                        <source type="images/webp" data-srcset="social_media.webp">
+                        <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
+                     </picture>
+                     <span class="sub-heading">
+                        Digital Application Form
+                     </span>
+                  </p>
+                  <p class="features-para">
+                     Be it a school, university hospital or any organisation 
+                     we provide customizable solutions to collect application
+                     with OTP authentication and signatures
+                  </p>
+               </div>
+               <div class="col s12 l4">
+                  <p class="heading-with-image">
+                     <picture>
+                        <source type="images/webp" data-srcset="social_media.webp">
+                        <img data-src="images/webp/analytics.webp" class="lazyload features-heading" alt="">
+                     </picture>
+                     <span class="sub-heading">
+                        Visitor Management Solution
+                     </span>
+                  </p>
+                  <p class="features-para">
+                     Modernise your front desk to give your guests the welcome they deserve.
+                     
+                  </p>
+                  <p class="features-para">
+                     Our robust solution helps any organisation for a fast, secure and smart 
+                     visitor experience which leads to smoothen operations
+                  </p>
+               </div>
+               <div class="col s12 l4"></div>
+               <div class="col s12 l4">
+                  <p class="heading-with-image">
+                     <picture>
+                        <source type="images/webp" data-srcset="social_media.webp">
+                        <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
+                     </picture>
+                     <span class="sub-heading">
+                        Digital Surveys
+                     </span>
+                  </p>
+                  <p class="features-para">
+                     A Cost efficient solution to collect survey which ensures 
+                     reach, scalability, flexibility and security.
+                     Our Solution helps to replicate any kind of questionnaire 
+                     in a digital manner as per the use case.
+                  </p>
+               </div>
+               
+            </div>
+         </div>
+      </section>
+
+
+      <section style="margin-top: 7rem;">
+         <div class="fake-container">
+            <h2 class="intro-heading">
+               About
+            </h2>
+            <div class="row">
+               
+               <div class="col l6 order l-second">
+                  <p class="about-heading-para">
+                     Welcome to the world of automation and analytics.
+                     An Android & iOS based application where any kind of manual
+                     process that takes place in any organisation can be digitalize, 
+                     thereby making this a secure, fast and seamless experience.
+                  </p>
+                  
+               </div>
+
+               <div class="col l6 order l-first">
+                  <div class="image-section">
+                     <picture>
+                        <source type="images/webp" data-srcset="about.webp">
+                        <img data-src="images/webp/about.webp" class="lazyload heading-section-image" alt="">
+                     </picture>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+      <section class="feature-section">
+         <div class="fake-container">
+            <div class="heading-2">
+               <h2 class="features-heading">Features</h2>
+            </div>
+            <div class="row middle">
+               <div class="col s12 l4">
+                  <p class="heading-with-image">
+                     <picture>
+                        <source type="images/webp" data-srcset="social_media.webp">
+                        <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
+                     </picture>
+                     <span class="sub-heading">
+                     Data Collection
+                     </span>
+                  </p>
+                  <p class="features-para">
+                     Data gathering through digital procedure is more effective 
+                     when the data generated through a well constructed questioner 
+                     which includes CSV Reports, Real time alerts.
+                  </p>
+               </div>
+               <div class="col s12 l4">
+                  <p class="heading-with-image">
+                     <picture>
+                        <source type="images/webp" data-srcset="social_media.webp">
+                        <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
+                     </picture>
+                     <span class="sub-heading">
+                     Real Time Analytics
+                     </span>
+                  </p>
+                  <p class="features-para">
+                     <b>There is no waiting,</b> Organisations are able 
+                     to turn all of the raw data into useful insights as such, 
+                     investing in real time data analytics is a must for any 
+                     organisation that wants to get ahead of the curve.
+                  </p>
+               </div>
+               <div class="col s12 l4">
+                  <p class="heading-with-image">
+                     <picture>
+                        <source type="images/webp" data-srcset="social_media.webp">
+                        <img data-src="images/webp/analytics.webp" class="lazyload features-heading" alt="">
+                     </picture>
+                     <span class="sub-heading">
+                     Cloud based Application
+                     </span>
+                  </p>
+                  <p class="features-para">
+                     Organisations around the world are moving from 
+                     locally hosted solutions to cloud based solutions
+                     which is more secure and capex light, 
+                     that can be access from any where, 
+                     since all you need is an internet connection 
+                     and login credentials
+                  </p>
+               </div>
+               <div class="col s12 l4">
+                  <p class="heading-with-image">
+                     <picture>
+                        <source type="images/webp" data-srcset="social_media.webp">
+                        <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
+                     </picture>
+                     <span class="sub-heading">
+                     Customization & Personalization
+                     </span>
+                  </p>
+                  <p class="features-para">
+                     We take care of your brand reputation and recognition.
+                     this is why we kept it customizable as per the usecase.
+                     Color and theme of the app can be choosen according 
+                     to the brand. 
+                  </p>
+               </div>
+               <div class="col s12 l4">
+                  <p class="heading-with-image">
+                     <picture>
+                        <source type="images/webp" data-srcset="social_media.webp">
+                        <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
+                     </picture>
+                     <span class="sub-heading">
+                     Automation
+                     </span>
+                  </p>
+                  <p class="features-para">
+                     We have designed the product in that way, which helps in 
+                     higher production rate, increase productivity and most efficient use of data.
+                     Our solution is embedded with robust features like real time alerts, 
+                     direct & fast communication response based actions, daily reports, 
+                     OTP authentication and Data Safety & Security.
+                  </p>
+               </div>
+               <div class="col s12 l4">
+                  <p class="heading-with-image">
+                     <picture>
+                        <source type="images/webp" data-srcset="social_media.webp">
+                        <img data-src="images/webp/social_media.webp" class="lazyload features-heading" alt="">
+                     </picture>
+                     <span class="sub-heading">
+                     Environmental Friendly & Cost Effective
+                     </span>
+                  </p>
+                  <p class="features-para">
+                     Document Imaging and overall document digitizing process 
+                     adds to your green credit and is an environmental friendly
+                     initiative. It removes the needs of creating multiple backup 
+                     copies and unnecesarry printing, increasing the ecofriendly 
+                     quotient of your organisation.
+                  </p>
+                  <!-- <p class="features-para">
+                     The Cost of printing and paper work can be exorbitant, 
+                     it involves various sub costs like equipment management 
+                     paper record maintainance and cost of labour.
+                     </p> -->
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="third-section">
+         <div class="fake-container">
+            <div class="row">
+               <div class="col s12 l4">
+                  <h3 class="third-section-h3">Intigrate with the apps <br>you already use.</h3>
+               </div>
+               <div class="col s12 l4">
+               </div>
+               <div class="col s12 l4">
+                  <h3 class="third-section-h3">Use it anywhere</h3>
+               </div>
+            </div>
+            <div>
+               <picture>
+                  <source type="images/webp" data-srcset="third_section_image.webp">
+                  <img data-src="images/webp/third_section_image.webp" class="lazyload third_section_image" alt="">
+               </picture>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <form class="col s12">
+                     <div class="row">
+                        <div class="col s2">
+                        </div>
+                        <div class="input-field col s6">
+                           <i class="material-icons prefix">email</i>
+                           <input id="icon_prefix" type="email" class="validate">
+                           <label for="icon_prefix">Email</label>
                         </div>
                         <div class="input-field col s2">
-                            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                                <i class="material-icons right">send</i>
-                            </button>
+                           <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                           <i class="material-icons right">send</i>
+                           </button>
                         </div>
                         <div class="col s2">
                         </div>
-                    </div>
-                    </form>
-                </div>
+                     </div>
+                  </form>
+               </div>
             </div>
-        </div>    
-    </section>
-
-    
-    <!-- <section class="footer-section">
-        <div class="fake-container">
-            <div class="row footer">
-                <div class="col m2">
-                    <h5>Useful links</h5>
-                    <ul>
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-
-                <div class="col m2">
-                    <h5>Useful links</h5>
-                    <ul>
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-
-                <div class="col m2">
-                    <h5>Useful links</h5>
-                    <ul>
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-
-                <div class="col m2">
-                    <h5>Useful links</h5>
-                    <ul>
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-
-                <div class="col m2">
-                    <h5>Useful links</h5>
-                    <ul>
-                        <li>
-                            <a href="">
-                                <picture>
-                                    <source type="images/webp" data-srcset="google-store.webp">
-                                    <img data-src="images/webp/google-store.webp" class="lazyload downloading-image" alt="">
-                                </picture>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                <picture>
-                                    <source type="images/webp" data-srcset="apple-store.webp">
-                                    <img data-src="images/webp/apple-store.webp" class="lazyload downloading-image" alt="">
-                                </picture>
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-
-                <div class="col m2">
-                    <h5>Useful links</h5>
-                    <ul>
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="" aria-label="Read more about OctopusCo">
-                                OctopusCo
-                            </a>
-                        </li>
-                        
-                    </ul>
-                </div>
-
-                <div class="col s12">
-                    <h5>About octopusCo</h5>
-
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Similique nulla esse assumenda, sed natus itaque nisi obcaecati 
-                        voluptates ipsam excepturi hic aut culpa voluptatum alias inventore 
-                        ab vitae sit debitis?
-                    </p>
-
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Similique nulla esse assumenda, sed natus itaque nisi obcaecati 
-                        voluptates ipsam excepturi hic aut culpa voluptatum alias inventore 
-                        ab vitae sit debitis?
-                    </p>
-
-                </div>
-                
-            </div>
-
-            
-        </div>
-    </section> -->
-
-<script src="js/lazysizes.min.js" async></script>
-<!-- Compiled and minified JavaScript -->
-<script src="js/materialize.min.js"></script>
-
-</body>
-</html> 
+         </div>
+      </section>
+      <!-- <section class="footer-section">
+         <div class="fake-container">
+             <div class="row footer">
+                 <div class="col m2">
+                     <h5>Useful links</h5>
+                     <ul>
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                     </ul>
+                 </div>
+         
+                 <div class="col m2">
+                     <h5>Useful links</h5>
+                     <ul>
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                     </ul>
+                 </div>
+         
+                 <div class="col m2">
+                     <h5>Useful links</h5>
+                     <ul>
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                     </ul>
+                 </div>
+         
+                 <div class="col m2">
+                     <h5>Useful links</h5>
+                     <ul>
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                     </ul>
+                 </div>
+         
+                 <div class="col m2">
+                     <h5>Useful links</h5>
+                     <ul>
+                         <li>
+                             <a href="">
+                                 <picture>
+                                     <source type="images/webp" data-srcset="google-store.webp">
+                                     <img data-src="images/webp/google-store.webp" class="lazyload downloading-image" alt="">
+                                 </picture>
+                             </a>
+                         </li>
+         
+                         <li>
+                             <a href="">
+                                 <picture>
+                                     <source type="images/webp" data-srcset="apple-store.webp">
+                                     <img data-src="images/webp/apple-store.webp" class="lazyload downloading-image" alt="">
+                                 </picture>
+                             </a>
+                         </li>
+         
+                     </ul>
+                 </div>
+         
+                 <div class="col m2">
+                     <h5>Useful links</h5>
+                     <ul>
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                         <li>
+                             <a href="" aria-label="Read more about OctopusCo">
+                                 OctopusCo
+                             </a>
+                         </li>
+                         
+                     </ul>
+                 </div>
+         
+                 <div class="col s12">
+                     <h5>About octopusCo</h5>
+         
+                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                         Similique nulla esse assumenda, sed natus itaque nisi obcaecati 
+                         voluptates ipsam excepturi hic aut culpa voluptatum alias inventore 
+                         ab vitae sit debitis?
+                     </p>
+         
+                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                         Similique nulla esse assumenda, sed natus itaque nisi obcaecati 
+                         voluptates ipsam excepturi hic aut culpa voluptatum alias inventore 
+                         ab vitae sit debitis?
+                     </p>
+         
+                 </div>
+                 
+             </div>
+         
+             
+         </div>
+         </section> -->
+      <script src="js/lazysizes.min.js" async></script>
+      <!-- Compiled and minified JavaScript -->
+      <script src="js/materialize.min.js"></script>
+   </body>
+</html>

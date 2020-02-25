@@ -24,6 +24,8 @@ body{
 }
 .features-heading,
 .intro-heading{
+    vertical-align: middle;
+    text-align: center;
     font-size: 4.2rem;
     font-weight: 700;
 }
@@ -56,11 +58,11 @@ body{
     background-size: 100%;
     object-fit: cover;
 }
-.features-heading,
+/* .features-heading,
 .intro-heading{
     vertical-align: middle;
     text-align: center;
-}
+} */
 .features-para{  
     color: rgba(99, 107, 115, 255);
     font-size: 1.2rem;
@@ -120,6 +122,19 @@ h3.third-section-h3{
 .unorder-list{
     margin: 0 auto;
 }
+.about-subheading{
+    text-align: center;
+}
+ul.unorder-list li{
+    
+}
+nav.nav-extended{
+    background-color: midnightblue;
+}
+.intro-heading-para, .about-heading-para{
+    font-size:2rem;
+    padding: 0 3rem;
+}
 @media only screen and (max-width: 600px) {
     .third-section-h3 {
       display: none;
@@ -143,7 +158,29 @@ h3.third-section-h3{
    
 }
 
+@media screen and (max-width: 1100px) and (min-width: 992px) {
+    .intro-heading-para, .about-heading-para{
+        font-size:1.2rem;
+    }
+  }
 
+@media screen and (max-width: 1300px) and (min-width: 1101px) {
+    .intro-heading-para, .about-heading-para{
+        font-size:1.4rem;
+    }
+  }
+
+  @media screen and (max-width: 1400px) and (min-width: 1301px) {
+    .intro-heading-para, .about-heading-para{
+        font-size:1.6rem;
+    }
+  }
+
+  @media screen and (max-width: 1620px) and (min-width: 1401px) {
+    .intro-heading-para, .about-heading-para{
+        font-size:1.7rem;
+    }
+  }
 
 
 
