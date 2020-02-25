@@ -22,7 +22,8 @@ body{
 .main-heading{
     font-weight: 700;
 }
-.features-heading{
+.features-heading,
+.intro-heading{
     font-size: 4.2rem;
     font-weight: 700;
 }
@@ -55,8 +56,10 @@ body{
     background-size: 100%;
     object-fit: cover;
 }
-.features-heading{
+.features-heading,
+.intro-heading{
     vertical-align: middle;
+    text-align: center;
 }
 .features-para{  
     color: rgba(99, 107, 115, 255);
@@ -68,7 +71,8 @@ body{
 }
 .sub-heading{
     margin: 1rem;
-    font-size: x-large;
+    font-size: large;
+    font-weight: 700;
 }
 .fake-container{
     width: 90%;
@@ -99,9 +103,16 @@ button.btn.waves-effect.waves-light.submit{
 .row.footer ul li a{
     text-decoration: none;
 }
+.row.footer ul li a:hover{
+    color: #61dafb;
+}
 .downloading-image{
     height: 40px;
     width: 127px;
+}
+section.footer-section{
+    /*background-color: darkcyan;*/
+    background-color: #263238;
 }
 h3.third-section-h3{
     font-weight: 700;
@@ -128,3 +139,20 @@ h3.third-section-h3{
     }
    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
