@@ -79,10 +79,10 @@ body{
     margin: 0 auto;
     
 }
-/* .fake-container-2{
-    width: 90%;
+.fake-container-2{
+    width: 82%;
     margin: 0 auto;
-} */
+}
 .heading-with-image{
    margin-left: 2rem;
 }
@@ -116,6 +116,9 @@ section.footer-section{
 }
 h3.third-section-h3{
     font-weight: 700;
+}
+.unorder-list{
+    margin: 0 auto;
 }
 @media only screen and (max-width: 600px) {
     .third-section-h3 {
