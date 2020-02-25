@@ -134,6 +134,7 @@ nav.nav-extended{
 .intro-heading-para, .about-heading-para{
     font-size:2rem;
     padding: 0 3rem;
+    color: rgba(99, 107, 115, 255);
 }
 @media only screen and (max-width: 600px) {
     .third-section-h3 {
@@ -158,27 +159,39 @@ nav.nav-extended{
    
 }
 
+@media only screen and (max-width: 600px) {
+    .intro-heading-para, .about-heading-para{
+        padding: 0;
+        font-size: 1.2rem;
+        color: rgba(99, 107, 115, 255);
+    }
+  }
+
 @media screen and (max-width: 1100px) and (min-width: 992px) {
     .intro-heading-para, .about-heading-para{
         font-size:1.2rem;
+        color: rgba(99, 107, 115, 255);
     }
   }
 
 @media screen and (max-width: 1300px) and (min-width: 1101px) {
     .intro-heading-para, .about-heading-para{
         font-size:1.4rem;
+        color: rgba(99, 107, 115, 255);
     }
   }
 
   @media screen and (max-width: 1400px) and (min-width: 1301px) {
     .intro-heading-para, .about-heading-para{
         font-size:1.6rem;
+        color: rgba(99, 107, 115, 255);
     }
   }
 
   @media screen and (max-width: 1620px) and (min-width: 1401px) {
     .intro-heading-para, .about-heading-para{
         font-size:1.7rem;
+        color: rgba(99, 107, 115, 255);
     }
   }
 
