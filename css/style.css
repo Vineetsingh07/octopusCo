@@ -1,22 +1,17 @@
-html {
-    height: 100%;
-  }
-html, 
-body {
-    height: 100%;
-}
 body{
     color: #424242;
     background-color: #ffffff   ;
     font-family: 'Roboto', sans-serif;
     min-height: 100%;
 }
+.header{
+    margin-left: 2rem;
+}
 .asterik{
     font-size: 1.2rem;
     vertical-align: super;
 }
-.heading,
-.heading-2{
+.heading{
     text-align: center;
 }
 .main-heading{
@@ -28,7 +23,10 @@ body{
     text-align: center;
     font-size: 4.2rem;
     font-weight: 700;
+    text-decoration: underline;
+    color: #0f4c81;
 }
+
 .helper-text{
     text-align: center;
 }
@@ -48,7 +46,7 @@ body{
 .logo-text{
     font-size: 2.7rem;
     margin-left: 1.2rem;
-    color: rgba(15, 26, 38, 255);
+    font-weight: 700;
 }
 .heading-section-image,
 .third_section_image{
@@ -58,11 +56,7 @@ body{
     background-size: 100%;
     object-fit: cover;
 }
-/* .features-heading,
-.intro-heading{
-    vertical-align: middle;
-    text-align: center;
-} */
+
 .features-para{  
     color: rgba(99, 107, 115, 255);
     font-size: 1.2rem;
@@ -135,6 +129,9 @@ nav.nav-extended{
     font-size:2rem;
     padding: 0 3rem;
     color: rgba(99, 107, 115, 255);
+}
+.third-section-h3,h1,.logo-text{
+    color: #0f4c81;
 }
 @media only screen and (max-width: 600px) {
     .third-section-h3 {
